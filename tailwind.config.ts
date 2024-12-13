@@ -11,6 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lightYellow : '#FBEBB5',
+        lightGray :  '#FAF4F4',
+        Gray :'#9F9F9F',
+        pink : '#FAF4F4',
+        cart :  '#FFF9E5'
+
+
       },
     },
   },
