@@ -6,7 +6,7 @@ const Homepage2 = ({ heading, linkText, bgImage }
     : {
         heading: string,
         linkText: string,
-        bgImage: any
+        bgImage: string
     }
 ) => {
     return (
