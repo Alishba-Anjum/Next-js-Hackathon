@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const Home5 = ({ image }: { image: any }) => {
+const Home5 = ({ image }: { image: string }) => {
     return (
         <div className='flex flex-col gap-4 w-full max-w-sm md:max-w-md lg:max-w-lg mx-auto'>
             <Image src={image} alt='Blog image' width={393} height={393} className='w-full h-auto' />
